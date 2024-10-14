@@ -34,3 +34,28 @@ This is a Discord bot script designed to automate operations within a server, su
      "webhook": "YOUR_WEBHOOK_URL",
      "updateWebhook": "YOUR_UPDATE_WEBHOOK_URL"
    }
+
+4. Run the bot:
+
+   `node index.js`
+
+## Configuartion
+- Replace the `PROTECTED_SERVER_ID` in the script with the ID of the server you want to protect from certain actions.
+- Update `adminUserIds` with the user IDs of the administrators allowed to execute protected commands.
+
+## Available Commands
+- nukevr: Deletes all channels and creates new ones with raid messages.
+- addpermsvr: Grants the "Administrator" role to the user.
+- kickvr: Kicks all members from the server except bots and administrators.
+- banvr: Bans all members from the server except bots and administrators.
+- hackervr: Sends 100 DM messages to each member as a "rickroll" joke.
+- setwebhookmessage: Prompts the user to send a message to the webhook.
+- haltnukevr: Stops the nuke operation.
+- stoprickvr: Stops the "hackervr" operation.
+- clearvr: Deletes all server channels.
+
+## Loging
+Command usage is logged in a JSON file (`command_logs.json`) and sent via the configured webhook.
+
+## Liscence
+Free, open-source, use it as you wish.
