@@ -1,3 +1,6 @@
+Need help / Join the community !
+[Our Discord Server](https://discord.gg/6U9FMfvfUW)
+
 # Discord Raid Bot
 
 This is a Discord bot script designed to automate operations within a server, such as creating multiple channels, sending messages, managing roles, and logging command usage via webhooks.
